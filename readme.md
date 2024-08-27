@@ -18,7 +18,7 @@ copy the files
 - /boot/userconf.txt (to login over ssh with username pi, password raspberry)
 - /boot/ssh (enable ssh)
 - /boot/chilipie_url.txt
-- /etc/wpa_supplicant/wpa_supplicant.conf (if you're deploying the pi on wifi. edit the file with your wifi credentials.)
+- /etc/NetworkManager/system-connections/wifi.nmconnection (if you're deploying the pi on wifi. edit the file with your wifi credentials. also, might as well replace the UUID with a new one)
 
 ## live-step 1: boot up the pi and hope for the best
 
